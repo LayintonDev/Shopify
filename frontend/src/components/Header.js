@@ -11,7 +11,7 @@ export default function Header() {
                         <div className="row align-items-center">
                             <div className="col-lg-2 col-4">
                                 <a href="#" className="brand-wrap">
-                                    <img className="logo" src="./images/mylogo.png" />
+                                    <img className="logo" src="./images/myLogo.png" />
                                 </a> {/* brand-wrap.// */}
                             </div>
                             <div className="col-lg-6 col-sm-12">
