@@ -11,13 +11,13 @@ export default function Carousel() {
                 </ol>
                 <div className="carousel-inner" role="listbox">
                     <div className="carousel-item active">
-                        <img className="d-block img-fluid" src="/images/carosel.jpg" alt="First slide" />
+                        <img className="d-block img-fluid" src="../images/carosel.jpg" alt="First slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block img-fluid" src="/images/carosel.jpg" alt="Second slide" />
+                        <img className="d-block img-fluid" src="../images/carosel.jpg" alt="Second slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block img-fluid" src="/images/carosel.jpg" alt="Third slide" />
+                        <img className="d-block img-fluid" src="../images/carosel.jpg" alt="Third slide" />
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
