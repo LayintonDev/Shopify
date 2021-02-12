@@ -14,8 +14,8 @@ export default function Footer() {
                             <p>Get an amazing app to make Your life easy</p>
                         </div>
                         <div className="col-md-6 text-md-right">
-                            <a href="#"><img src="frontend/public/images/appstore.png" height={40} /></a>
-                            <a href="#"><img src="frontend/public/images/appstore.png" height={40} /></a>
+                            <a href="#"><img src="/public/images/appstore.png" height={40} /></a>
+                            <a href="#"><img src="/public/images/appstore.png" height={40} /></a>
                         </div>
                     </div> {/* row.// */}
                 </div>{/* container // */}
