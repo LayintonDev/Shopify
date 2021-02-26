@@ -46,7 +46,7 @@ width: 100%;
   margin: 0;
 }
 
-@charset "UTF-8";
+/* @charset "UTF-8"; */
 /* ==== BASE STYLES ====*/
 /* ==================== GLOBAL STYLES ======================= */
 @import url("https://rsms.me/inter/inter.css");
@@ -1119,15 +1119,51 @@ a[class*=card]:hover .title {
 
 .price {
   font-weight: 600;
+  margin-right: 10px;
+  font-size: 100%;
   color: #212529;
 }
 
-.price-old {
-  color: #969696;
+.details {
+  font-weight: 500;
+  color: #212529;
   margin-left: 3px;
-  font-size: 85%;
+  font-size: 100%;
 }
+.card.card-body{
+  background-color:#CCCCCC;
 
+}
+.status{
+  margin-right: 10px;
+}
+.qty{
+  margin-left: 5px;
+  font-weight: 600;
+  font-size: 100%;
+  color: #212529;
+  margin-right: 10px;
+}
+.btn.btn-primary{
+  width: 100%;
+  cursor: pointer;
+}
+input,select,textarea,button{
+  padding: 10px;
+  border: black;
+  border-radius: 10px;
+  
+}
+input,select,textarea,button:hover{
+  background-color: whitesmoke;
+}
+.btn.btn-primary:hover{
+  background-color: rgb(12, 91, 165);
+}
+.gallImg{
+  width: 100px;
+  height: 100px;
+}
 .icon-control {
   margin-top: 5px;
   float: right;
@@ -1147,7 +1183,165 @@ a[class*=card]:hover .title {
 }
 .filter-group:last-child {
   border-bottom: 0;
-} */
+}
+ .col-md-3{
+  flex: 1 1 25rem;
+}
+.col-md-6{
+  flex: 2 1 50rem;
+}
+.success{
+  color: #00b517;
+}
+.danger{
+  color: orangered;
+}
+#productDetailsRow{
+  align-items: flex-start;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
+li{
+list-style: none;
+margin-bottom: 10px;
+}
+
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: .75rem;
+}
+
+
+
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+.form-signin {
+  width: 100%;
+}
+
+.form-signin .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group input {
+  height: auto;
+  border-radius: 2rem;
+}
+
+.form-label-group>input,
+.form-label-group>label {
+  padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+  padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-label-group input:not(:placeholder-shown)~label {
+  padding-top: calc(var(--input-padding-y) / 3);
+  padding-bottom: calc(var(--input-padding-y) / 3);
+  font-size: 12px;
+  color: #777;
+}
+
+.btn-google {
+  color: white;
+  background-color: pink;
+}
+
+.btn-facebook {
+  color: white;
+  background-color: #1673c0;
+}
+
+/* Fallback for Edge
+-------------------------------------------------- */
+
+@supports (-ms-ime-align: auto) {
+  .form-label-group>label {
+    display: none;
+  }
+  .form-label-group input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* Fallback for IE
+-------------------------------------------------- */
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+  .form-label-group>label {
+    display: none;
+  }
+  .form-label-group input:-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+*/
 
 /* ====================== block ==================== */
 /* .box {
@@ -1472,6 +1666,4 @@ a[class*=card]:hover .title {
   font-weight: bold;
   margin-right: 5px;
   display: block;
-} */
-
-/*# sourceMappingURL=ui.css.map */
+}

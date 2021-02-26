@@ -1,15 +1,17 @@
 export const productData = {
+
     products: [
         {
-            _id: 1,
-            name: "Blueshirt",
+         
+            name: "Bag",
             Category: "clothing",
-            image: "./images/blueshirt.jpg",
+            image: '/images/bag.jpg',
             price: 250,
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!",
             numReviews: 15,
             rating: 5.0,
             brand: "Adidas",
+            countInStock: 5,
             market: "Ikeja",
 
 
@@ -18,16 +20,16 @@ export const productData = {
 
         },
         {
-            _id: 2,
+            
             name: "Blueshirt",
             Category: "clothing",
-            image: "./images/blueshirt.jpg",
+            image: "/images/blueshirt.jpg",
             price: 250,
-            author: "olayiwola",
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!",
             numReviews: 15,
             rating: 5.0,
             brand: "Adidas",
+            countInStock: 4,
             market: "Ikeja",
 
 
@@ -36,15 +38,16 @@ export const productData = {
 
         },
         {
-            _id: 3,
-            name: "Blueshirt",
+            
+            name: "Jean",
             Category: "clothing",
-            image: "./images/blueshirt.jpg",
+            image: "/images/jean.jpg",
             price: 250,
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!",
             numReviews: 15,
             rating: 5.0,
             brand: "Adidas",
+            countInStock: 0,
             market: "Ikeja",
 
 
@@ -53,15 +56,16 @@ export const productData = {
 
         },
         {
-            _id: 4,
-            name: "Blueshirt",
+            
+            name: "Hooded",
             Category: "clothing",
-            image: "./images/blueshirt.jpg",
+            image: "/images/hooded.jpg",
             price: 250,
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!",
             numReviews: 15,
             rating: 5.0,
             brand: "Adidas",
+            countInStock: 7,
             market: "Ikeja",
 
 
@@ -70,15 +74,16 @@ export const productData = {
 
         },
         {
-            _id: 5,
-            name: "Blueshirt",
+           
+            name: "Wristwatch",
             Category: "clothing",
-            image: "./images/blueshirt.jpg",
+            image: "/images/wristwatch.jpg",
             price: 250,
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!",
             numReviews: 15,
             rating: 5.0,
             brand: "Adidas",
+            countInStock: 1,
             market: "Ikeja",
 
 
@@ -87,15 +92,16 @@ export const productData = {
 
         },
         {
-            _id: 6,
-            name: "Blueshirt",
+          
+            name: "Sofa",
             Category: "clothing",
-            image: "./images/blueshirt.jpg",
+            image: "/images/sofa.jpg",
             price: 250,
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!",
             numReviews: 15,
             rating: 5.0,
             brand: "Adidas",
+            countInStock: 10,
             market: "Ikeja",
 
 
@@ -104,15 +110,16 @@ export const productData = {
 
         },
         {
-            _id: 7,
-            name: "Blueshirt",
+           
+            name: "Towel",
             Category: "clothing",
-            image: "./images/blueshirt.jpg",
+            image: "/images/towel.jpg",
             price: 250,
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!",
             numReviews: 15,
             rating: 5.0,
             brand: "Adidas",
+            countInStock: 2,
             market: "Ikeja",
 
 
@@ -121,15 +128,16 @@ export const productData = {
 
         },
         {
-            _id: 8,
-            name: "Blueshirt",
+            
+            name: "Earpod",
             Category: "clothing",
-            image: "./images/blueshirt.jpg",
+            image: "/images/earpod.jpg",
             price: 250,
             desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!",
             numReviews: 15,
             rating: 5.0,
             brand: "Adidas",
+            countInStock: 6,
             market: "Ikeja",
 
 

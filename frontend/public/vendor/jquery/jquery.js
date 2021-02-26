@@ -1,3 +1,12 @@
+/* eslint-disable no-control-regex */
+/* eslint-disable no-undef */
+/* eslint-disable no-self-assign */
+/* eslint-disable no-self-compare */
+/* eslint-disable no-useless-escape */
+/* eslint-disable array-callback-return */
+/* eslint-disable no-redeclare */
+/* eslint-disable no-mixed-operators */
+/* eslint-disable strict */
 /*!
  * jQuery JavaScript Library v3.5.1
  * https://jquery.com/
